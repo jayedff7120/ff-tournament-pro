@@ -1,0 +1,12 @@
+<!doctype html><html lang="bn"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Private Admin</title><link rel="stylesheet" href="/style.css"></head><body>
+<main class="admin-main"><div id="login" class="card login"><div class="tag">🔐 PRIVATE ADMIN</div><h1>Admin Panel</h1><input id="password" type="password" placeholder="Admin Password"><button class="primary wide" onclick="adminLogin()">LOGIN</button><p id="loginMsg"></p></div>
+<div id="panel" class="hidden"><div class="head"><div><div class="tag">⚙️ CONTROL CENTER</div><h1>Admin Dashboard</h1></div><button class="refresh" onclick="loadAdmin()">🔄 Refresh Data</button></div>
+<div class="card"><h2>Tournament Settings</h2><form id="settings"><div class="formgrid">
+<label>Name<input name="name"></label><label>Status<input name="status"></label><label>Description<textarea name="description" rows="2"></textarea></label><label>Date<input name="date"></label><label>Time<input name="time"></label><label>Time Zone<input name="timezone"></label><label>Entry Fee<input name="entryFee"></label><label>Prize Pool<input name="prizePool"></label><label>Max Teams<input name="maxTeams"></label><label>Deadline<input name="deadline"></label></div>
+<h3>Payment</h3><div class="formgrid"><label>bKash Number<input name="bkash"></label><label>Nagad Number<input name="nagad"></label></div><label class="check"><input name="bkashEnabled" type="checkbox"> Enable bKash</label><label class="check"><input name="nagadEnabled" type="checkbox"> Enable Nagad</label>
+<h3>Room</h3><div class="formgrid"><label>Room ID<input name="roomId"></label><label>Room Password<input name="roomPassword"></label></div><label class="check"><input name="roomPublished" type="checkbox"> Publish Room</label>
+<h3>Rules — প্রতি লাইনে একটি</h3><textarea id="rules" rows="9"></textarea><button class="primary wide">💾 SAVE ALL</button><p id="saveMsg"></p></form></div>
+<div class="card"><h2>💳 Top-up Requests</h2><div id="topups"></div></div>
+<div class="card"><h2>👥 Registered Teams</h2><div id="adminTeams"></div></div>
+<div class="card"><h2>🥇 Add Result</h2><form id="resultForm" class="formgrid"><input name="team" placeholder="Team Name" required><input name="position" placeholder="Position"><input name="kills" placeholder="Kills"><input name="points" placeholder="Points"><button class="primary wide">ADD RESULT</button></form><div id="adminResults"></div></div>
+</div></main><script src="/admin.js"></script></body></html>

@@ -1,0 +1,77 @@
+{
+  "tournament": {
+    "name": "Jayed FF TOUR",
+    "description": "Free Fire Squad Tournament",
+    "date": "30 August 2026",
+    "time": "8:00 PM",
+    "timezone": "04:00 pm",
+    "entryFee": "৳ 100",
+    "prizePool": "৳ 900",
+    "maxTeams": 12,
+    "deadline": "30 August 2026, 6:00 PM",
+    "status": "REGISTRATION OPEN"
+  },
+  "room": {
+    "id": "654654654",
+    "password": "11",
+    "published": true
+  },
+  "payment": {
+    "bkash": "01893030341",
+    "nagad": "01893030341",
+    "bkashEnabled": true,
+    "nagadEnabled": true
+  },
+  "rules": [
+    "প্রত্যেক দলে ৫ জন Player থাকতে হবে।",
+    "নির্ধারিত Match Time-এর আগে Room-এ Join করতে হবে।",
+    "Hack, Script বা unfair software ব্যবহার করলে Team disqualified হবে।",
+    "অন্য Team-এর সঙ্গে teaming করা যাবে না।",
+    "Player change শুধুমাত্র Admin-এর অনুমতিতে করা যাবে।",
+    "Result ও dispute-এর ক্ষেত্রে Admin-এর সিদ্ধান্ত final।"
+  ],
+  "teams": [
+    {
+      "id": 1787885445961,
+      "team_name": "Jayed Esp Club",
+      "captain_name": "Jayed FF !",
+      "phone": "01893030341",
+      "player1": "Jayed FF !",
+      "player2": "sifat FF !",
+      "player3": "Kawsar FF !",
+      "player4": "Jayed FF !",
+      "player5": "ksdsdkk FF !",
+      "status": "Approved",
+      "createdAt": "2026-08-28T02:50:45.961Z"
+    }
+  ],
+  "topups": [
+    {
+      "id": 1787885335528,
+      "player": "Jayed ff",
+      "method": "bKash",
+      "amount": 500,
+      "txid": "eraction",
+      "status": "Approved",
+      "createdAt": "2026-08-28T02:48:55.528Z"
+    },
+    {
+      "id": 1787885077978,
+      "player": "erge",
+      "method": "bKash",
+      "amount": 500,
+      "txid": "erteter",
+      "status": "Approved",
+      "createdAt": "2026-08-28T02:44:37.978Z"
+    }
+  ],
+  "results": [
+    {
+      "id": 1787885534352,
+      "team": "Titan ESP club",
+      "position": "1",
+      "kills": "12",
+      "points": "24"
+    }
+  ]
+}
